@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Fiction Reading Community
+    </title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Fyodor Dostoyevsky, Feedback Form
+    </h1>
+    <p id="description">Thankyou for providing your feedback and joining our community</p>
+
+    <form id="survey-form" action="#">
+      <fieldset class="first-section">
+      <label id="name-label">Name:<input id="name" type="text" name="username" placeholder="Full Name" required>
+      </label>
+      <label id="email-label">Email:<input id="email" type="email" name="Email" placeholder = "example123@email.com" required>
+      </label>
+      <label id ="number-label">Age:<input id="number" type="number" name="age" min="9" max="110" placeholder="(optional)" pattern="[0-9]" class="font"> 
+      <label>How did you find out about Dostoyevsky:
+        <select id="dropdown" name="referrer" required>
+    <option disabled selected value class="font">Select an option
+    </option
+    <option>
+      Friends
+    </option>
+    <option>
+      Family
+    </option>
+    <option>
+      School/College
+    </option>
+    <option>
+      Library
+    </option>
+    <option>
+      Social Media
+    </option>
+    <option>
+      Others
+    </option>
+    </select>
+      </fieldset>
+      <fieldset>
+        Would you recommend Dostoyevsky to a friend:
+        <label><input type="radio" name="recommendation" value="recommentationt" class="inline" /> Definitely</label>
+        <label><input type="radio" name="recommendation" value="recommentationt" class="inline" />Maybe</label>
+        <label><input type="radio" name="recommendation" value="recommentationt" class="inline" />Not sure</label>
+      </fieldset>
+      <fieldset>
+        Check mark the other books of Dostoyevsky you have read:
+        
+        <label><input type="checkbox" class="Books" value="Crime and Punishment" > Crime and Punishment
+        </label>
+        <label><input type="checkbox" class="Books" value="The Brothers Karamazov" > The Brothers Karamazov 
+        </label>
+        <label><input type="checkbox" class="Books" value="Demons"> Demons
+        </label>
+        <label><input type="checkbox" class="Books" value="The Gambler"> The Gambler
+        </label>
+        <label><input type="checkbox" class="Books" value="Notes From the Underground"> Notes From The Underground
+        </label>
+        <label><input type="checkbox" class="Books" value="White Nights"> White Nights
+        </label>
+        <label><input type="checkbox" class="Books" value="Poor Folks"> Poor Folks
+        </label>
+      </fieldset>
+      <fieldset>
+        Write a short description on what you like about Dostoyevsky's works: <textarea rows="5" cols="50"></textarea>
+      </fieldset>
+      <input id="submit" type="submit"/>
+    </form> 
+  </body>
+</html>
