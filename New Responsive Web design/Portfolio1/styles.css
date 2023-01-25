@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1p:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+}
+html{
+    font-size: 18px;
+}
+header{
+    font-size: 1.5rem;
+    text-align: right;
+    background-color: #BE3144;
+    color: white;
+    padding: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    padding: 0 10px;
+}
+.introduction h1, p{
+    text-align: center;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.introduction h1{
+    
+    font-weight: 100000;
+    font-size: 3.5rem;
+
+}
+.introduction p{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #BE3040;
+    margin-top: -15px;
+}
+.introduction{
+    padding: 200px 0px 270px 0px ;
+    background-color: #27272A;
+    color: white;
+}
+.projects{
+    text-align: center;
+}
+.contact-me{
+    text-align: center;
+}
+.projects h1{
+    padding-top: 80px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.pics-and-links{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+figure{
+    padding: 50px;
+}
+img{
+    max-width: 320px;
+    max-height: auto;
+}
