@@ -61,7 +61,6 @@ a{
     margin: 0 auto;
     justify-content: space-between;
 }
-
 figure{
     padding: 40px 70px;
 }
@@ -95,4 +94,32 @@ footer{
 }
 .padding{
     padding: 50px;
+}
+img{
+    border-radius: 500cm;
+}
+.section{
+    display: flex;
+    margin: 0px 80px;
+}
+.description{
+    padding: 70px 70px 0 0;
+}
+
+.description{
+    background-color: #ebebeb;
+    border-radius: 0 10cm 10cm 0;
+}
+figure{
+    border-radius: 10cm 0 0 10cm;
+    background-color: #ebebeb;
+}
+.line{
+    border-left: 13px solid #87ceeb;
+    height: 100px;
+    margin-left: 247px ;
+}
+.project-1{
+    margin-bottom: 90px; 
+    /* 9851023364 */
 }
