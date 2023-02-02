@@ -27,7 +27,7 @@ a{
     text-align: center;
     font-family: 'M PLUS 1p', sans-serif;
 }
-.introduction h1{
+.introduction h1, .contact-me h1{
     
     font-weight: 100000;
     font-size: 3.5rem;
@@ -49,7 +49,7 @@ a{
 }
 
 .projects h1{
-    padding: 40px 0;
+    padding-top: 80px;
     font-family: 'M PLUS 1p', sans-serif;
 
 }
@@ -62,6 +62,7 @@ a{
     margin: 0 auto;
     justify-content: space-between;
 }
+
 figure{
     padding: 40px 70px;
 }
@@ -83,27 +84,9 @@ img{
     padding: 50px;
     font-style: bold;
 }
-.Blogs{
-    background-color: #FEFEFE;
-    margin: 0 100px;
-}
-.blog h2, .blog p{
-    text-align: left;
-    font-family: 'M PLUS 1p', sans-serif;
-}
-.blog p{
-    font-style: italic;
-}
-.blog{
-    margin: 27px;
-    padding: 20px 5px;
-    background-color: #e0e0e0;
-    border-radius: 25px;
-    border: 2px solid #262626;
-}
-.projects h1{
-    background-color: #005BAC;
-    color: white;
+.contact-me p{
+    font-size: 1.4rem;
+    padding: 5px 0;
 }
 footer{
     background-color: #27272A;
@@ -111,3 +94,93 @@ footer{
     color: white;
     padding: 30px 0;
 }
+.padding{
+    padding: 50px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1p:wght@500&display=swap');
+h1,p{
+   text-align: center;
+   color: white;
+   font-family: 'M PLUS 1p', sans-serif;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+}
+p{
+  font-size: 1.5rem;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+form{
+  width: 45vw;
+  margin: 90px auto;
+  background-color: rgba(0, 25, 50, 0.8);
+  font-size: 1.5rem;
+
+  
+}
+fieldset{
+  border: 0;
+}
+
+label,input,select{
+  display: block;
+}
+
+label{
+  margin: 20px 0;
+}
+
+body{
+  background-image: linear-gradient(#005BAC, #aca700) ; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+
+input, textarea {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 3em;
+}
+input[type="radio"]{
+  display: inline-block;
+  width: 4%;
+  margin-right: 8px;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.Books{
+  width: unset;
+  display: inline;
+  width: 25px;
+  margin: 0 0 0.8em 0 ;
+  vertical-align: middle;
+}
+input[type="submit"]{
+  background-color: #008b4d;
+  color: #ffffff;
+  margin-top: 2em;
+}
+/*.font{
+  font-size: 0.9rem;
+}*/

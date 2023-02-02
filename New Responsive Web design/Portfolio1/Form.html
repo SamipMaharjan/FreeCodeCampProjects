@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Form_styles.css">
+</head>
+
+<body>
+
+    <header>
+    <nav class="nav-bar">
+       <a href="index.html">Home</a>
+       <a href="Hobbies.html">Hobbies</a>
+       <a href="Education.html">Education</a>
+       <a href="Blogs.html">Blogs</a>
+       <a href="Form.html">Form</a>
+       <a href="References.html">References</a>
+       
+    </nav>
+    </header>
+
+    <div class= "introduction">
+        <h1>
+         Fill up the Form
+        </h1>
+        <p>
+            If intrested in making close acquaintances with me!
+        </p>
+    </div>
+    <!-- introduction -->
+
+    <form id="survey-form" action="#">
+        <fieldset class="first-section">
+        <label id="name-label">Name:<input id="name" type="text" name="username" placeholder="Full Name" required>
+        <label id="Education">Education<input id="name" type="text" name="username" placeholder="Current or Past Education" required>
+        </label>
+        <label id="email-label">Email:<input id="email" type="email" name="Email" placeholder = "example123@email.com" required>
+        </label>
+        <label id ="number-label">Age:<input id="number" type="number" name="age" min="9" max="110" placeholder="(optional)" pattern="[0-9]" class="font"> 
+        <label>How did you find out about me:
+          <select id="dropdown" name="referrer" required>
+      <option disabled selected value class="font">Select an option
+      </option>
+      <option>
+        Friends
+      </option>
+      <option>
+        Family
+      </option>
+      <option>
+        School/College
+      </option>
+      <option>
+        Social Media
+      </option>
+      <option>
+        Others
+      </option>
+      </select>
+        </fieldset>
+        <fieldset>
+          Do you have a job:
+          <label><input type="radio" name="recommendation" value="recommentationt" class="inline" />Yes</label>
+          <label><input type="radio" name="recommendation" value="recommentationt" class="inline" />No</label>
+        </fieldset>
+        <fieldset>
+          Write a short note on why you want to make aquaintaces with me: <textarea rows="5" cols="50"></textarea>
+        </fieldset>
+        <input id="submit" type="submit"/>
+      </form>
+
+    <footer>
+        <p>**This is a portfolio project for Herald College Kathmandu.</p>
+    </footer>
+</body>
+</html>

@@ -21,6 +21,9 @@ header a{
 }
 a{
     padding: 0 10px;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
 }
 .introduction h1, p{
     text-align: center;
@@ -45,11 +48,15 @@ a{
 }
 .projects{
     text-align: center;
+    background-color: #e0e0e0;
 }
 
 .projects h1{
-    padding-top: 80px;
+    padding: 50px 0;
     font-family: 'M PLUS 1p', sans-serif;
+    background-color: #005BAC;
+    color: white;
+
 
 }
 
@@ -95,4 +102,7 @@ footer{
 }
 .padding{
     padding: 50px;
+}
+img{
+    border-radius: 1cm;
 }
