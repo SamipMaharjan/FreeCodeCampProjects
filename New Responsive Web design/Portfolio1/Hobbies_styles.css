@@ -19,10 +19,6 @@ header{
 header a{
     color: white;
 }
-nav a:hover{
-    color: #31beab;
-    transition: 0.3s;
-}
 a{
     padding: 0 10px;
     font-size: 1.3rem;
@@ -65,8 +61,12 @@ a{
 }
 
 .pics-and-links{
-    display: grid;
-    grid-template-columns: repeat(3,33.3%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 figure{
@@ -105,18 +105,4 @@ footer{
 }
 img{
     border-radius: 1cm;
-}
-figure:hover{
-    /* background-color: #6ab04c; */
-    background-color: #7ed6df;
-    transition: 0.5s;
-}
-.contact-me a:hover{
-    color: #44bd32;
-}
-@media (max-width: 600px) {
-    .pics-and-links{
-        display: flex;
-        flex-direction: column;
-    }
 }

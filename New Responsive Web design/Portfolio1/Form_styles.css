@@ -16,9 +16,7 @@ header{
     position: sticky;
     top: 0;
 }
-header a{
-    color: white;
-}
+
 a{
     padding: 0 10px;
     text-decoration: none;
@@ -27,8 +25,7 @@ a{
     text-align: center;
     font-family: 'M PLUS 1p', sans-serif;
 }
-.introduction h1, .contact-me h1{
-    
+.introduction h1{
     font-weight: 100000;
     font-size: 3.5rem;
 
@@ -54,15 +51,6 @@ a{
 
 }
 
-.pics-and-links{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
 figure{
     padding: 40px 70px;
 }
@@ -71,36 +59,16 @@ img{
     max-height: auto;
 }
 
-.contact-me{
-    text-align: center;
-    background-color: #27272A;
-}
-.contact-me a, .contact-me h1, .contact-me p{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-.contact-me h1{
-    padding: 50px;
-    font-style: bold;
-}
-.contact-me p{
-    font-size: 1.4rem;
-    padding: 5px 0;
-}
 footer{
     background-color: #27272A;
     border-top: 5px solid #BE3040;
     color: white;
     padding: 30px 0;
 }
-.padding{
-    padding: 50px;
-}
-
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+1p:wght@500&display=swap');
+
 h1,p{
    text-align: center;
    color: white;
@@ -121,8 +89,6 @@ form{
   margin: 90px auto;
   background-color: rgba(0, 25, 50, 0.8);
   font-size: 1.5rem;
-
-  
 }
 fieldset{
   border: 0;
@@ -184,3 +150,13 @@ input[type="submit"]{
 /*.font{
   font-size: 0.9rem;
 }*/
+
+@media (max-width: 600px){
+  form{
+
+    width: 90%;
+    margin: 50px auto;
+    /* background-color: rgba(0, 25, 50, 0.8); */
+    font-size: 1.5rem;
+  }
+}

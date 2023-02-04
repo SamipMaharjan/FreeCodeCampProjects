@@ -54,21 +54,6 @@ a{
 
 }
 
-.pics-and-links{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-figure{
-    padding: 40px 70px;
-}
-img{
-    width: 210px;
-    max-height: auto;
-}
 
 .contact-me{
     text-align: center;
@@ -110,4 +95,25 @@ footer{
     border-top: 5px solid #BE3040;
     color: white;
     padding: 30px 0;
+}
+.read-more{
+    text-align: left;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 10px;
+    border-radius: 40px;
+    width:125px;
+    color: black;
+}
+.read-more:hover{
+    background-color: yellow;
+    transition: 0.5s;
+}
+@media (max-width: 600px){
+    .blog{
+        margin: 20px -70px;
+        padding: 1px 1px;
+        background-color: #e0e0e0;
+        border-radius: 25px;
+        border: 2px solid #262626;
+    }
 }
