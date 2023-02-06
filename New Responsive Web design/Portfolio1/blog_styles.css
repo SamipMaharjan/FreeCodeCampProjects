@@ -33,12 +33,7 @@ a{
     font-size: 3.5rem;
 
 }
-.introduction p{
-    font-style: italic;
-    font-size: 1.5rem;
-    color: #BE3040;
-    margin-top: -15px;
-}
+
 .introduction{
     padding: 200px 0px 270px 0px ;
     background-color: #27272A;
@@ -54,20 +49,6 @@ a{
 
 }
 
-
-.contact-me{
-    text-align: center;
-    background-color: #27272A;
-}
-.contact-me a, .contact-me h1, .contact-me p{
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-.contact-me h1{
-    padding: 50px;
-    font-style: bold;
-}
 .Blogs{
     background-color: #FEFEFE;
     margin: 0 100px;

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
-}
+} 
 html{
     font-size: 18px;
 }
@@ -35,12 +35,7 @@ a{
     font-size: 3.5rem;
 
 }
-.introduction p{
-    font-style: italic;
-    font-size: 1.5rem;
-    color: #BE3040;
-    margin-top: -15px;
-}
+
 .introduction{
     padding: 200px 0px 270px 0px ;
     background-color: #27272A;
@@ -85,14 +80,6 @@ img{
     color: white;
     font-family: 'Open Sans', sans-serif;
     
-}
-.contact-me h1{
-    padding: 50px;
-    font-style: bold;
-}
-.contact-me p{
-    font-size: 1.4rem;
-    padding: 5px 0;
 }
 footer{
     background-color: #27272A;

@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  #navbar{
+    background-color: #27ae60;
+    color: white;
+    /* padding-left: 70%; */
+  }
+  #navbar ul{
+    display: flex;
+    justify-content: flex-end;
+  }
+  #navbar a{
+    text-decoration: none;
+    color:white;
+  }
+  #navbar ul li{
+    list-style: none;
+    padding: 20px 15px;
+    font-size: 2.5rem
+  }
+  /* Navigation Bar */
+  
+  #welcome-section{
+    background-color: #2c3e50;
+    /* background-color: #bdc3c7; */
+    color: white;
+    padding: 300px 0px;
+  }
+  #welcome-section h1, #welcome-section p{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #welcome-section h1{
+    font-size: 4.5rem;
+  }
+  #welcome-section p{
+    font-size:1.5rem;
+  }
+  /* Welcome section */
+  
+  /* Projects */
+  #projects{
+    background-color: #50502c;
+    padding: 20px 0px 280px 0px;
+  }
+  #projects h1,.project-tile{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+  }

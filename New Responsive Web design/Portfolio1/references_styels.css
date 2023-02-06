@@ -1,0 +1,19 @@
+.references a{
+    color: white;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    margin-top: 50px;
+
+}
+.references a:hover{
+    background-color:  #141416;
+    transition: 0.3s;
+}
+.references{
+    padding-top: 50px;
+    text-align: center;
+}
+.introduction{
+    align-items: center;
+}
