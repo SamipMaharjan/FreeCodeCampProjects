@@ -62,11 +62,9 @@ header {
     .nav-bar ul{
         margin: 40px 0 0 0;
         border:0
-        
     }
     .links{
         background-color: #be3144;
-
     }
     .links.active{
         display:flex;

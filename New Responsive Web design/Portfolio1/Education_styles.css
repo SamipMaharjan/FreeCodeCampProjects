@@ -142,14 +142,16 @@ figure{
         border-radius: 50px;
         text-align: center;
     }
- .school-name h1{
+    .school-name h1{
     margin: -70px 0 0 0;
     }
+
     figure{
         margin: 0px 0px -40px 0px;
         border-radius: 10cm 10cm 0cm 0cm;
         background-color: #ebebeb;
     }
+    
     .line{
         align-self: center;
         margin: 0% 50% 0% 50%;
