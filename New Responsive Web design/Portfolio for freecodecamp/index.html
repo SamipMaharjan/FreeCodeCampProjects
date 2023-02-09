@@ -11,9 +11,9 @@
   <header>
     <section id="navbar">
       <ul>
-        <li><a href="#">About </a></li>
-        <li><a href="#"> Projects</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="#welcome-section">About </a></li>
+        <li><a href="#projects"> Projects</a></li>
+        <li><a href="#contact">Contacts</a></li>
       </ul>
     </section>
     <!-- navbar -->
@@ -27,39 +27,84 @@
   <!-- welcome-section -->
 
   <section id="projects">
-    <h1>Here are some of my Projects</h1>
+    <h1><u>Here are some of my Projects.</u></h1>
     <div class="project-tile">
       <div class="project project-1">
         <figure>
-            <img src="" alt="">
-        </figure>
+          <a href="https://github.com/SamipMaharjan/OOP-practice-questions/tree/master/matrix%20addition%20and%20multiplication%20OOP" target="_blank" >
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA2FBMVEX6mAv////l5eX9mgvW1tba2trh4eHe3t7m5ubf39/b29t4eHj6kwD6lQD2tXT92LjEdwnMfAnNlFvo6+7k29T2y6X5rUjriADEdwPz5NB9fX3Ly8vKysr238DysmTRgAlvb2/87977rVn8///438n1yJ305dn48OXknUbz8/P++fL60qP5niX4nBbmkyXu7u7r0Lj7wH77yZH6xIb5vHP5pDT4p0P3s2T106r6ojDxvofpgADpqVjssHS6mHnNklXJsZvljgrgpFrpvIjpxZ3nyabk18Xwo0lzED/ZAAAGcUlEQVR4nO3da1fjNhAGYDuQBIJUoMt1t9nWuNuUkDSwQLiUXrj//39U54qSSJpxPBMiOu/HHOzj54xsSSGWovijJ3rvC2CPCMOPCMOPCMOPCMOPCMOPCMOPCMOPCK1J6vXNOXN6OueB9XqyGGH95GhFFcj2VoGD21cn+Zl5hM3Nq0ynowJZ2d5amf9orTPlWZ1LmJy1i+mKCwdMdfO9wSBMjgpWj0zYM+qLJrGwcUXBi4iEWZQ6xxpRwhOtKC4rohNmxjbyfkQIG3tUPkph1lYviIT1iKaB9kMo7JUxoRCe0BUwIhZmvQeipULCM1IgsTAr40lR4QUtkFyIIPqF1EB6IUz0Cr9TAxmEkQLuRZ9wkxzIIYx0Mq8wIewlRmERtucVXgYijNTVfMJz+jbKJIzU5jzChAPIJNQtzzDcKXxlaKNcwkid5xfWWUrIJYyUe07sEKZdlhKyCbV7nuEQMpWQTegpokO4x1NCRqHzTrQLG0wl5BO6H6d2If2AdBg2oXt4ahWmN0yNlFHofNZYhRwj0kH4hFHb0UytQtpvLswwCtVhDuFViDVU3/DCJvo21IPgL4NRqB0zDJuwgT5p96ifFvoyGIVRO0ULD7G34egJ/RVdRU6hOkYLrwMV2h81NiG6v18yob3PtwnPsRe8ZMJrtPCHQIW7IhSh5ZwinIkIi0SEWKE2MhYq40PvVQBCDWUBQn2595bL4TjpvGt86B2G+4X6Zg/IDb9Q/Wo9DbYF+IWOazSy6xlQfgzhNxGKUIT/C+HuoZHhV5QN8zPvF3VAb3F7COTWe2kkwmjfyJ/DHv/O/NDbKwM9vtoH4ju5jNpEaD2nCGciwiIRoQit5xThTERYJCKcS3j9Wz93H1YYIcbDkwlOmDsiLBIRipAmIiwSEYqQJiIsEhGKkCYiLBIRipAmIiwSEYqQJiIsEhGKkCZLI1xhSybkSg7hX1th5u8OWvgzXw4OfuTKP/9aX+1afCv9xBZrCRf/pDn4tMaUkghFSCYscUWEIhShCEUoQhGKUIQiFKEICVIRoQhFKMKxsMIVEYpQhCIMTKhn9w5C7SYUjFC36u2pP1L1I8RSfaEIdbsZJ5PE3mtsiD2FAhHqVm/x7MTcQ2iwpQ1MhISrUDzHrpMJdXuwOrhBHL2ICBIBYfWXDX8+lxYhHC9JPG6ob6tOHgHlB4Q1ULiIGuo/xgu8D4lvuy41oXctgxBOEHsN1Vg39HdMK113plKGhe6jq2tUwiliHmAowkjfG8S3JgoDgxGaVRyvhI4BgsKNz0aGqIksSmgSR8EAe8JS1Z3aT0C+eA6mFc4SUUBIWHVXaFSohQnNezFGNlGEsFCIhVkVk9zAsIRmP5hg19YPSjixQHgyPZlyCytcwBr1fTi5AjqSGJBwZon3BLUhKyT8AmVhQssa9igiIATHNBueo0mFb8Dmw/RMAxTWnKmugqO2qvtoSqE5XVLGMHwFJAYinJxNTE+mPoBQT02XzJlGC54BL79Qd0d/NxrJGMSzQsIaKNzwHFwmq6F6MCvYJ44a6uO+HwgKp+ZKs6ERQoUYEo2x6JAIAiFhGewPaYTgLizqLp6aLvUbKgyEhIWSQ/gIThTUQ9ZNTHySVREB7AnXy1zBf9eG2A1J30/XWd/DvqURYna0mn3HDvXWHasQv6MVeley/GEVWoFWIddGsszCag7hBaewyiUs4YUc28bzC1ftDxq7sBFkDe0PGruQ70ZkFDpuQ7swfuLbLZdL6GqkDuFxeEJXI3UIU66f1LAJVysOoEOI36hzaYSuErqEKdOGuVzCVddzximMD9mENfAXJfPEWUKnkOlO5BK6S+gUxp2ghO4SuoXxM8fDhklon91DwhS/0vp7C2seoEcYd6AvP5dG6GmjXmH8EojQNV6Dhekp+a3IIfTdhIAwTslH4AxC53ANI6Qn0gshICCM02fsbxDeSQgCIWGcvqD+e51DWKYEOr6bySOM050uYUslFvqfokhh1i/eol40WLzQOenNK8xaapfKSClEtFCsMCvjU4vGSCesoQqIFsbp2iOJkUro+C9MAWFm7Dy/qsJdB42whvflEGbG452n17YC995mFpbXsO0zt3CAfHn8+tqKtJoz21tFhOVKJx8vt7CvTI87OwXieWPCl9Ja5zi3bj5haBFh+BFh+BFh+BFh+BFh+BFh+BFh+BFh+BFh+BFh+Pn4wv8AMCjXeamsBKEAAAAASUVORK5CYII=" alt="">
+              <figcaption>Matrix addition, subtraction <br>and multiplication calculator</figcaption>
+          </a>
+          </figure>
       </div>
       <div class="project project-2">
-
+        <figure>
+          <a href="https://github.com/SamipMaharjan/FreeCodeCampProjects/tree/master/New%20Responsive%20Web%20design/Project1-%20Feedback%20survery%20form" target="_blank">
+              <img src="data:image/png;base64,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" alt="Picture of a Form" class="feedback-form"> <figcaption>Community Feedback Form</figcaption>
+          </a>
+          </figure>
       </div>
       <div class="project project-3">
-
+        <figure>
+          <a href="https://github.com/MaharjanSamip/WEB/tree/main/Workshop%206" target="_blank">
+              <img src="data:image/png;base64,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" alt="image of business advertizing"><figcaption>Business Advertizing</figcaption>
+          </a>
+          </figure>
       </div>
       <div class="project project-4">
-
+        <figure>
+          <a href="https://github.com/SamipMaharjan/OOP-practice-questions/tree/master/matrix%20addition%20and%20multiplication%20OOP" target="_blank">
+              <img src="data:image/png;base64,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" alt="Icon of Calculator">
+              <figcaption>Complex Number Addition, Subtraction <br>and Multiplication Calculator</figcaption>
+          </a>
+          </figure>
       </div>
       <div class="project project-5">
-
+        <figure>
+          <a href="https://github.com/SamipMaharjan/OOP-practice-questions/tree/master/Merge%20Sort" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/2172/2172943.png" alt="Algorithm Logo">
+              <figcaption>Merge Sort Algorithm</figcaption>
+          </a>
+          </figure>
       </div>
       <div class="project project-6">
-
+        <figure>
+          <a href="#">
+              <img src="https://play-lh.googleusercontent.com/n3vb2UjC3bCldAzy_WayG8wAMdIspefAwQrPTgrKn6HMmTzGbyU5TELYKolQ2MxedkQD" alt="Tic Tac Toe Logo" target="_blank">
+              <figcaption>Tic Tac Toe Game</figcaption>
+          </a>
+          </figure>
       </div>
     </div>
     <!-- project-tile -->
   </section>
   <!-- projects -->
+
+
   <section id="contact">
-    <h1>Contact me</h1>
+    <h1>Contact me...</h1>
+    <p>
+      <a href="https://www.facebook.com/profile.php?id=100074722845416" target="_blank">
+      Facebook
+  </a>
+  </p>
+  <p>
+      <a id="profile-link" href="https://github.com/SamipMaharjan" target="_blank">
+      Github
+  </a>
+  </p>
+  <p>
+      Email: samip1317@gmail.com
+  </p>
+  <p>  
+      Call: +977 9865058848
+  </a>
+  </p>
   </section>
   <!-- contact -->
   
 </body>
 <footer>
-  This is a portfolio project created for freecodecmap.org. 
+  **This is a portfolio project created for freecodecmap.org. 
 </footer>
 </html>
