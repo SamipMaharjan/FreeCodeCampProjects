@@ -4,16 +4,34 @@
     text-align: center;
     align-self: center;
     margin-top: 50px;
-
 }
+
 .references a:hover{
     background-color:  #141416;
     transition: 0.3s;
 }
+
 .references{
     padding-top: 50px;
     text-align: center;
 }
+
 .introduction{
     align-items: center;
+}
+
+.introduction h1, p{
+    text-align: center;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.introduction h1, .contact-me h1{
+    font-weight: 100000;
+    font-size: 2.5rem;
+
+}
+.introduction p{
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #BE3040;
+    margin-top: -15px;
 }
