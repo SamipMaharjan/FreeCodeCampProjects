@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <script src="Simple_Calculator.js"></script> -->
+    <script src="Simple_Calculator.js"></script>
 </head> 
 <body>
-    <form>
+   
         <fieldset>
+
             <legend>Input Phase</legend>
-            First number: <input type="number" id="first_number" class="first_number"> <br>
-            Second number: <input type="number" id="second_number" class="second_number"> <br>
-            Enter your operation(+,-,*,/): <input type="text" id="operation" class="operation" pattern="[+\-\*\/]" required>
+
+            First number: <input type="number" id="first_number" value="1"> <br>
+
+            Second number: <input type="number" id="second_number" value="9"> <br>
+
+            Enter your operation(+,-,*,/): <input type="text" id="operation" class="operation" pattern="[+\-\*\/]" value="+" required>
+
         </fieldset>
         <input type="submit" id="submit" onclick="Calculate()" >
-        <div id="output"></div>
-    </form>
+        <div id="output">
+        </div>
+    
 </body>
 </html>

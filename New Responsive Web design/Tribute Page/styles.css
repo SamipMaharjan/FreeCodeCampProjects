@@ -1,0 +1,46 @@
+html{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+#image{
+    position: absolute;
+    clip-path: polygon(0 13%, 100% 13%, 100% 87%, 0 87%);
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+.heading{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 7px;
+}
+#img-caption{
+    margin-top: 425px;
+}
+#tribute-info{
+    background-color: aquamarine;
+}
+#tribute-info ul, #tribute-info blockquote{
+    margin: 0% 20% 0% 20%;
+    font-size: 1.4rem;
+}
+#tribute-info li{
+    padding: 10px 0px;
+}
+#tribute-info h1{
+    text-align: center;
+    padding-top: 25px ;
+}
+blockquote{
+    padding: 40px 0px;
+}
+#tribute-info h3{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
