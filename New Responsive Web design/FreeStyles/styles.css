@@ -11,12 +11,10 @@ body{
     grid-template-rows: repeat(5, 300px);
     /* grid-auto-rows: minmax(300px, auto); */
 }
-.g{
-    grid-column: 2/3;
+.navbar{
+    position: fixed;
 }
-.grid-1{
-    height: 1500px;
-    grid-column: 1/2;
-    grid-row: 1/5;
+.main-doc{
+    width: 100%;
 
 }

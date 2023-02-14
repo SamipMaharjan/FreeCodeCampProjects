@@ -16,19 +16,20 @@ body{
     column-gap: 2%;
 }
 #main-doc{
-    margin-left: 50%;
-
+    width: 100%;
+    margin-left: 150%;
 }
 /* navbar */
 #navbar{
     grid-column: 1/2;
     background-color: #f1c40f;
-    display: none;
+    display: flex;
     flex-direction: column;
     height: 100vh ;
     position: fixed;
     left: 0rem;
     top: 0rem;
+    width: 33%;
 } 
 #navbar header{
     padding: 20px 0px 0px 20px;
@@ -62,4 +63,16 @@ code{
     font-size: 1.2rem;
 
     font-family: 'Mukta', sans-serif;
+}
+.main-section p{
+    justify-content: space-between;
+}
+@media (max-width: 850px){
+    #navbar{
+        display: none;
+    }
+    #main-doc{
+        width: 100%;
+        margin-left: 50%;
+    }
 }
