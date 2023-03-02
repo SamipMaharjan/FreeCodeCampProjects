@@ -1,6 +1,9 @@
-function display(){
-    let first_number = parseFloat(document.getElementById("first_number").value);
-    let second_number = parseFloat(document.getElementById("second_number").value);
+const numbers = [1, 2, 3, 4, 5];
 
-    document.getElementById("output").innerHTML = "The result is: " + first_number;
+function isEven(number) {
+  return number % 2 === 0;
 }
+
+const evenNumbers = numbers.filter(isEven);
+
+console.log(evenNumbers); // Output: [2, 4]

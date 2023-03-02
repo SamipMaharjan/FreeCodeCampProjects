@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 export default function Default(props) {
   // CSS 
@@ -8,9 +7,6 @@ export default function Default(props) {
       width: '100%',
       backgroundColor: 'white',
       color: 'black',
-      // style={textStyles}
-      // height={'100px'} 
-      // width= {'10000px'}
   }
 
   let tasksStyles = {

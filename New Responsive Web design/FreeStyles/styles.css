@@ -12,9 +12,13 @@ body{
     /* grid-auto-rows: minmax(300px, auto); */
 }
 .navbar{
-    position: fixed;
+    /* position: fixed; */
+
 }
 .main-doc{
     width: 100%;
 
+}
+.navbar li{
+    list-style: none;
 }
