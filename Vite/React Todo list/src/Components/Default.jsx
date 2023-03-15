@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState, useEffect, useRef, useReducer } from 'react'
-import './stylesForDefualt.css'
 
 export default function Default(props) {
 
@@ -9,7 +8,6 @@ export default function Default(props) {
 
   // For storing the text written in the input 
   const [todoInput, setTodoInput] = useState("Samip");
-
 
   // Storing the text written in input to the todoInput. 
   let storingVariable = (event) => {
@@ -119,18 +117,20 @@ export default function Default(props) {
 
   return (
     <>
-    <div className="heading">
-      <h1>To-do List</h1>
-    </div>
-      <div className="">
+    <section id='todo-block'>
 
-      <div className="mb-3">
-            {/* Task Section  */}
+      <div className="heading">
+        <h1>To-do</h1>
+      </div>
+      {/* For Heading  */}
+      
+      <div className="To-do">
+
             <div className="tasks">
               <ul>
                 {
                   taskName.map(item => (
-                  <li key={item.id}><input type="checkbox" onChange={() => {toggleCheckbox(item.id); forceUpdate();}} id={`checkbox-${item.id}`}></input>
+                  <li key={item.id}><input type="checkbox" onChange={() => {toggleCheckbox(item.id); forceUpdate();}} id={`checkbox ${item.id}`}></input>
                   {
                     (editTask != item.id) && (
                       <p id={`checkbox-${item.id}`}>
@@ -177,16 +177,19 @@ export default function Default(props) {
                 } 
               </ul>
             </div>
-            <form action="">
-              {/* Input Section  */}
-              <div className="input">
-                <input type="text" placeholder="Enter your text" onChange={storingVariable} onKeyDown={addList} value={todoInput}/>
+            {/* Task Section  */}
 
-                <button id="button-2" type="button" className="btn btn-secondary"  onClick={deleteList} >Clear all</button>
-              </div>
-            </form>
-        </div>
+            <div className="input">
+              <input type="text" placeholder="Task" onChange={storingVariable} onKeyDown={addList} value={todoInput}/>
+
+              <button id="button" type="button" className="button"  onClick={deleteList} >Clear all</button>
+            </div>
+            {/* Input Section  */}
+
       </div>
+      {/* The whole todo list  */}
+
+    </section>
     </>
   )
 }
